@@ -7,7 +7,7 @@ namespace Meniu.UI
 {
     public class MeniuPrincipal
     {
-        private string[] _optiuni = { "Snake", "X si 0", "Connect 4", "Setari" };
+        private string[] _optiuni = { "Snake", "X si 0", "Connect 4", "Inregistrari", "Setari" };
         private int _indexSelectat = 0;
 
         public void Afiseaza()
@@ -66,6 +66,9 @@ namespace Meniu.UI
                     new JocConnect4().Incepe();
                     break;
                 case 3:
+                    new MeniuInregistrari().Afiseaza();
+                    break;
+                case 4:
                     new MeniuSetari().Afiseaza();
                     break;
             }
