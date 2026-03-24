@@ -1,0 +1,249 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\MeniuJocuri\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-0001-0001-0001-000000000001}|Meniu\\Meniu.csproj|d:\\meniujocuri\\meniu\\ui\\meniuinregistrari.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-0001-0001-0001-000000000001}|Meniu\\Meniu.csproj|solutionrelative:meniu\\ui\\meniuinregistrari.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-0001-0001-0001-000000000001}|Meniu\\Meniu.csproj|d:\\meniujocuri\\meniu\\jocuri\\connect4\\jocconnect4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-0001-0001-0001-000000000001}|Meniu\\Meniu.csproj|solutionrelative:meniu\\jocuri\\connect4\\jocconnect4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-0001-0001-0001-000000000001}|Meniu\\Meniu.csproj|d:\\meniujocuri\\meniu\\jocuri\\xsizero\\jocxsizero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-0001-0001-0001-000000000001}|Meniu\\Meniu.csproj|solutionrelative:meniu\\jocuri\\xsizero\\jocxsizero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-0001-0001-0001-000000000001}|Meniu\\Meniu.csproj|d:\\meniujocuri\\meniu\\jocuri\\sarpe\\jocsarpe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-0001-0001-0001-000000000001}|Meniu\\Meniu.csproj|solutionrelative:meniu\\jocuri\\sarpe\\jocsarpe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-0002-0002-0002-000000000002}|LibrarieModele\\LibrarieModele.csproj|d:\\meniujocuri\\librariemodele\\bazajoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-0002-0002-0002-000000000002}|LibrarieModele\\LibrarieModele.csproj|solutionrelative:librariemodele\\bazajoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-0002-0002-0002-000000000002}|LibrarieModele\\LibrarieModele.csproj|d:\\meniujocuri\\librariemodele\\gestiuneinregistrari.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-0002-0002-0002-000000000002}|LibrarieModele\\LibrarieModele.csproj|solutionrelative:librariemodele\\gestiuneinregistrari.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-0002-0002-0002-000000000002}|LibrarieModele\\LibrarieModele.csproj|d:\\meniujocuri\\librariemodele\\inregistrarejoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-0002-0002-0002-000000000002}|LibrarieModele\\LibrarieModele.csproj|solutionrelative:librariemodele\\inregistrarejoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-0002-0002-0002-000000000002}|LibrarieModele\\LibrarieModele.csproj|d:\\meniujocuri\\librariemodele\\statusjoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-0002-0002-0002-000000000002}|LibrarieModele\\LibrarieModele.csproj|solutionrelative:librariemodele\\statusjoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-0001-0001-0001-000000000001}|Meniu\\Meniu.csproj|d:\\meniujocuri\\meniu\\jocuri\\connect4\\tablaconnect4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-0001-0001-0001-000000000001}|Meniu\\Meniu.csproj|solutionrelative:meniu\\jocuri\\connect4\\tablaconnect4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-0002-0002-0002-000000000002}|LibrarieModele\\LibrarieModele.csproj|d:\\meniujocuri\\librariemodele\\tabla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-0002-0002-0002-000000000002}|LibrarieModele\\LibrarieModele.csproj|solutionrelative:librariemodele\\tabla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-0001-0001-0001-000000000001}|Meniu\\Meniu.csproj|d:\\meniujocuri\\meniu\\ui\\meniuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-0001-0001-0001-000000000001}|Meniu\\Meniu.csproj|solutionrelative:meniu\\ui\\meniuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-0001-0001-0001-000000000001}|Meniu\\Meniu.csproj|d:\\meniujocuri\\meniu\\jocuri\\xsizero\\tablaxsizero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-0001-0001-0001-000000000001}|Meniu\\Meniu.csproj|solutionrelative:meniu\\jocuri\\xsizero\\tablaxsizero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-0001-0001-0001-000000000001}|Meniu\\Meniu.csproj|d:\\meniujocuri\\meniu\\jocuri\\sarpe\\corpsarpe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-0001-0001-0001-000000000001}|Meniu\\Meniu.csproj|solutionrelative:meniu\\jocuri\\sarpe\\corpsarpe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-0002-0002-0002-000000000002}|LibrarieModele\\LibrarieModele.csproj|d:\\meniujocuri\\librariemodele\\optiunijucator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-0002-0002-0002-000000000002}|LibrarieModele\\LibrarieModele.csproj|solutionrelative:librariemodele\\optiunijucator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MeniuInregistrari.cs",
+              "DocumentMoniker": "D:\\MeniuJocuri\\Meniu\\UI\\MeniuInregistrari.cs",
+              "RelativeDocumentMoniker": "Meniu\\UI\\MeniuInregistrari.cs",
+              "ToolTip": "D:\\MeniuJocuri\\Meniu\\UI\\MeniuInregistrari.cs",
+              "RelativeToolTip": "Meniu\\UI\\MeniuInregistrari.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADsAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T19:33:14.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BazaJoc.cs",
+              "DocumentMoniker": "D:\\MeniuJocuri\\LibrarieModele\\BazaJoc.cs",
+              "RelativeDocumentMoniker": "LibrarieModele\\BazaJoc.cs",
+              "ToolTip": "D:\\MeniuJocuri\\LibrarieModele\\BazaJoc.cs",
+              "RelativeToolTip": "LibrarieModele\\BazaJoc.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAkwDIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T19:31:22.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GestiuneInregistrari.cs",
+              "DocumentMoniker": "D:\\MeniuJocuri\\LibrarieModele\\GestiuneInregistrari.cs",
+              "RelativeDocumentMoniker": "LibrarieModele\\GestiuneInregistrari.cs",
+              "ToolTip": "D:\\MeniuJocuri\\LibrarieModele\\GestiuneInregistrari.cs",
+              "RelativeToolTip": "LibrarieModele\\GestiuneInregistrari.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T19:31:01.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "InregistrareJoc.cs",
+              "DocumentMoniker": "D:\\MeniuJocuri\\LibrarieModele\\InregistrareJoc.cs",
+              "RelativeDocumentMoniker": "LibrarieModele\\InregistrareJoc.cs",
+              "ToolTip": "D:\\MeniuJocuri\\LibrarieModele\\InregistrareJoc.cs",
+              "RelativeToolTip": "LibrarieModele\\InregistrareJoc.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T19:28:17.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TablaConnect4.cs",
+              "DocumentMoniker": "D:\\MeniuJocuri\\Meniu\\Jocuri\\Connect4\\TablaConnect4.cs",
+              "RelativeDocumentMoniker": "Meniu\\Jocuri\\Connect4\\TablaConnect4.cs",
+              "ToolTip": "D:\\MeniuJocuri\\Meniu\\Jocuri\\Connect4\\TablaConnect4.cs",
+              "RelativeToolTip": "Meniu\\Jocuri\\Connect4\\TablaConnect4.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAQwFAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T19:23:24.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JocConnect4.cs",
+              "DocumentMoniker": "D:\\MeniuJocuri\\Meniu\\Jocuri\\Connect4\\JocConnect4.cs",
+              "RelativeDocumentMoniker": "Meniu\\Jocuri\\Connect4\\JocConnect4.cs",
+              "ToolTip": "D:\\MeniuJocuri\\Meniu\\Jocuri\\Connect4\\JocConnect4.cs",
+              "RelativeToolTip": "Meniu\\Jocuri\\Connect4\\JocConnect4.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T19:19:41.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MeniuPrincipal.cs",
+              "DocumentMoniker": "D:\\MeniuJocuri\\Meniu\\UI\\MeniuPrincipal.cs",
+              "RelativeDocumentMoniker": "Meniu\\UI\\MeniuPrincipal.cs",
+              "ToolTip": "D:\\MeniuJocuri\\Meniu\\UI\\MeniuPrincipal.cs",
+              "RelativeToolTip": "Meniu\\UI\\MeniuPrincipal.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAA6wFYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T19:17:36.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Tabla.cs",
+              "DocumentMoniker": "D:\\MeniuJocuri\\LibrarieModele\\Tabla.cs",
+              "RelativeDocumentMoniker": "LibrarieModele\\Tabla.cs",
+              "ToolTip": "D:\\MeniuJocuri\\LibrarieModele\\Tabla.cs",
+              "RelativeToolTip": "LibrarieModele\\Tabla.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T19:17:17.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TablaXSiZero.cs",
+              "DocumentMoniker": "D:\\MeniuJocuri\\Meniu\\Jocuri\\XSiZero\\TablaXSiZero.cs",
+              "RelativeDocumentMoniker": "Meniu\\Jocuri\\XSiZero\\TablaXSiZero.cs",
+              "ToolTip": "D:\\MeniuJocuri\\Meniu\\Jocuri\\XSiZero\\TablaXSiZero.cs",
+              "RelativeToolTip": "Meniu\\Jocuri\\XSiZero\\TablaXSiZero.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAIwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T19:15:13.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "JocSarpe.cs",
+              "DocumentMoniker": "D:\\MeniuJocuri\\Meniu\\Jocuri\\Sarpe\\JocSarpe.cs",
+              "RelativeDocumentMoniker": "Meniu\\Jocuri\\Sarpe\\JocSarpe.cs",
+              "ToolTip": "D:\\MeniuJocuri\\Meniu\\Jocuri\\Sarpe\\JocSarpe.cs",
+              "RelativeToolTip": "Meniu\\Jocuri\\Sarpe\\JocSarpe.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowC8AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T19:11:40.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CorpSarpe.cs",
+              "DocumentMoniker": "D:\\MeniuJocuri\\Meniu\\Jocuri\\Sarpe\\CorpSarpe.cs",
+              "RelativeDocumentMoniker": "Meniu\\Jocuri\\Sarpe\\CorpSarpe.cs",
+              "ToolTip": "D:\\MeniuJocuri\\Meniu\\Jocuri\\Sarpe\\CorpSarpe.cs",
+              "RelativeToolTip": "Meniu\\Jocuri\\Sarpe\\CorpSarpe.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T19:10:33.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "JocXSiZero.cs",
+              "DocumentMoniker": "D:\\MeniuJocuri\\Meniu\\Jocuri\\XSiZero\\JocXSiZero.cs",
+              "RelativeDocumentMoniker": "Meniu\\Jocuri\\XSiZero\\JocXSiZero.cs",
+              "ToolTip": "D:\\MeniuJocuri\\Meniu\\Jocuri\\XSiZero\\JocXSiZero.cs",
+              "RelativeToolTip": "Meniu\\Jocuri\\XSiZero\\JocXSiZero.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T19:01:17.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StatusJoc.cs",
+              "DocumentMoniker": "D:\\MeniuJocuri\\LibrarieModele\\StatusJoc.cs",
+              "RelativeDocumentMoniker": "LibrarieModele\\StatusJoc.cs",
+              "ToolTip": "D:\\MeniuJocuri\\LibrarieModele\\StatusJoc.cs",
+              "RelativeToolTip": "LibrarieModele\\StatusJoc.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T07:59:30.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "OptiuniJucator.cs",
+              "DocumentMoniker": "D:\\MeniuJocuri\\LibrarieModele\\OptiuniJucator.cs",
+              "RelativeDocumentMoniker": "LibrarieModele\\OptiuniJucator.cs",
+              "ToolTip": "D:\\MeniuJocuri\\LibrarieModele\\OptiuniJucator.cs",
+              "RelativeToolTip": "LibrarieModele\\OptiuniJucator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T07:58:34.162Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

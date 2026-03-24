@@ -1,0 +1,11 @@
+D:\MeniuJocuri\LibrarieModele\obj\Debug\net8.0\LibrarieModele.GeneratedMSBuildEditorConfig.editorconfig
+D:\MeniuJocuri\LibrarieModele\obj\Debug\net8.0\LibrarieModele.AssemblyInfoInputs.cache
+D:\MeniuJocuri\LibrarieModele\obj\Debug\net8.0\LibrarieModele.AssemblyInfo.cs
+D:\MeniuJocuri\LibrarieModele\obj\Debug\net8.0\LibrarieModele.csproj.CoreCompileInputs.cache
+D:\MeniuJocuri\LibrarieModele\bin\Debug\net8.0\LibrarieModele.deps.json
+D:\MeniuJocuri\LibrarieModele\bin\Debug\net8.0\LibrarieModele.dll
+D:\MeniuJocuri\LibrarieModele\bin\Debug\net8.0\LibrarieModele.pdb
+D:\MeniuJocuri\LibrarieModele\obj\Debug\net8.0\LibrarieModele.dll
+D:\MeniuJocuri\LibrarieModele\obj\Debug\net8.0\refint\LibrarieModele.dll
+D:\MeniuJocuri\LibrarieModele\obj\Debug\net8.0\LibrarieModele.pdb
+D:\MeniuJocuri\LibrarieModele\obj\Debug\net8.0\ref\LibrarieModele.dll
