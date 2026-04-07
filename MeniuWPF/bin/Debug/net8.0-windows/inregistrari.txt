@@ -1,0 +1,8 @@
+Jucator|Snake|90|10|Pierdut
+Jucator|Snake|50|6|Pierdut
+Jucator|Snake|10|2|Pierdut
+Jucator|Snake|10|2|Pierdut
+Jucator 1|Connect4|0|21|Castigat
+Jucator|Snake|0|1|Pierdut
+Jucator|Snake|0|1|Pierdut
+Anonim|Snake|0|1|Pierdut

@@ -1,0 +1,84 @@
+<Window x:Class="MeniuWPF.Views.XSiZeroWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="X si 0" Height="520" Width="420"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
+        Background="{StaticResource PrimaryBrush}">
+    <StackPanel Margin="30">
+
+        <TextBlock Text="✖️  X SI 0" Style="{StaticResource TitleText}" FontSize="28"/>
+
+        <!-- Status -->
+        <TextBlock x:Name="TxtStatus"
+                   Text="Turul: Jucator 1 (X)"
+                   Foreground="{StaticResource GreenBrush}"
+                   FontSize="16" FontWeight="Bold"
+                   HorizontalAlignment="Center"
+                   Margin="0,0,0,20"/>
+
+        <!-- 3x3 Grid -->
+        <Grid x:Name="GameGrid" HorizontalAlignment="Center">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="100"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="100"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Row 0 -->
+            <Button Grid.Row="0" Grid.Column="0" Tag="0,0" Click="Cell_Click" Style="{StaticResource CellButton}"/>
+            <Button Grid.Row="0" Grid.Column="1" Tag="0,1" Click="Cell_Click" Style="{StaticResource CellButton}"/>
+            <Button Grid.Row="0" Grid.Column="2" Tag="0,2" Click="Cell_Click" Style="{StaticResource CellButton}"/>
+            <!-- Row 1 -->
+            <Button Grid.Row="1" Grid.Column="0" Tag="1,0" Click="Cell_Click" Style="{StaticResource CellButton}"/>
+            <Button Grid.Row="1" Grid.Column="1" Tag="1,1" Click="Cell_Click" Style="{StaticResource CellButton}"/>
+            <Button Grid.Row="1" Grid.Column="2" Tag="1,2" Click="Cell_Click" Style="{StaticResource CellButton}"/>
+            <!-- Row 2 -->
+            <Button Grid.Row="2" Grid.Column="0" Tag="2,0" Click="Cell_Click" Style="{StaticResource CellButton}"/>
+            <Button Grid.Row="2" Grid.Column="1" Tag="2,1" Click="Cell_Click" Style="{StaticResource CellButton}"/>
+            <Button Grid.Row="2" Grid.Column="2" Tag="2,2" Click="Cell_Click" Style="{StaticResource CellButton}"/>
+        </Grid>
+
+        <!-- Buttons -->
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,24,0,0">
+            <Button Content="Restart" Style="{StaticResource SmallButton}" Click="BtnRestart_Click"/>
+            <Button Content="Inapoi"  Style="{StaticResource SmallButton}" Background="#333" Click="BtnBack_Click"/>
+        </StackPanel>
+    </StackPanel>
+
+    <Window.Resources>
+        <Style x:Key="CellButton" TargetType="Button">
+            <Setter Property="Background"      Value="{StaticResource AccentBrush2}"/>
+            <Setter Property="Foreground"      Value="{StaticResource TextBrush}"/>
+            <Setter Property="FontSize"        Value="36"/>
+            <Setter Property="FontWeight"      Value="Bold"/>
+            <Setter Property="BorderThickness" Value="2"/>
+            <Setter Property="BorderBrush"     Value="#333355"/>
+            <Setter Property="Cursor"          Value="Hand"/>
+            <Setter Property="Margin"          Value="3"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="8">
+                            <ContentPresenter HorizontalAlignment="Center"
+                                              VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#1a3a6a"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+</Window>

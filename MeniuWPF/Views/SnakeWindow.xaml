@@ -1,0 +1,44 @@
+<Window x:Class="MeniuWPF.Views.SnakeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Snake" Height="560" Width="560"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
+        Background="{StaticResource PrimaryBrush}"
+        KeyDown="Window_KeyDown">
+    <Grid>
+        <StackPanel>
+            <!-- Header -->
+            <DockPanel Margin="16,10">
+                <TextBlock Text="🐍 SNAKE"
+                           Foreground="{StaticResource GreenBrush}"
+                           FontSize="20" FontWeight="Bold"/>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                    <TextBlock x:Name="TxtScor"
+                               Text="Scor: 0"
+                               Foreground="{StaticResource TextBrush}"
+                               FontSize="16" FontWeight="Bold"
+                               Margin="0,0,16,0"/>
+                    <TextBlock x:Name="TxtLungime"
+                               Text="Lungime: 1"
+                               Foreground="{StaticResource SubTextBrush}"
+                               FontSize="14"/>
+                </StackPanel>
+            </DockPanel>
+
+            <!-- Game Canvas -->
+            <Canvas x:Name="GameCanvas"
+                    Width="500" Height="500"
+                    Background="#0d0d1a"
+                    HorizontalAlignment="Center"
+                    Margin="0,0,0,10"/>
+
+            <!-- Status / Controls hint -->
+            <TextBlock x:Name="TxtStatus"
+                       Text="Apasa o sageata pentru a incepe · ESC = pauza"
+                       Foreground="{StaticResource SubTextBrush}"
+                       FontSize="12"
+                       HorizontalAlignment="Center"/>
+        </StackPanel>
+    </Grid>
+</Window>

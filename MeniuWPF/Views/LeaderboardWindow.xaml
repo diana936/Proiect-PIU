@@ -1,0 +1,62 @@
+<Window x:Class="MeniuWPF.Views.LeaderboardWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Leaderboard" Height="580" Width="620"
+        WindowStartupLocation="CenterScreen"
+        Background="{StaticResource PrimaryBrush}">
+    <Grid Margin="24">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Text="🏆 LEADERBOARD" Style="{StaticResource TitleText}" FontSize="26"/>
+
+        <!-- Filter buttons -->
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,12">
+            <Button Content="Toate"     Style="{StaticResource SmallButton}" Click="BtnToate_Click"/>
+            <Button Content="Snake"     Style="{StaticResource SmallButton}" Click="BtnSnake_Click"/>
+            <Button Content="X si 0"    Style="{StaticResource SmallButton}" Click="BtnXSiZero_Click"/>
+            <Button Content="Connect 4" Style="{StaticResource SmallButton}" Click="BtnConnect4_Click"/>
+        </StackPanel>
+
+        <!-- Search bar -->
+        <DockPanel Grid.Row="2" Margin="0,0,0,12">
+            <TextBlock Text="Cauta jucator:" Style="{StaticResource LabelText}"
+                       VerticalAlignment="Center" Margin="0,0,8,0"/>
+            <Button Content="Cauta" Style="{StaticResource SmallButton}"
+                    DockPanel.Dock="Right" Click="BtnCauta_Click" Margin="8,0,0,0"/>
+            <TextBox x:Name="TxtCautare" Style="{StaticResource ModernTextBox}"/>
+        </DockPanel>
+
+        <!-- Results list -->
+        <ListView x:Name="LstRecords" Grid.Row="3"
+                  Background="#16213e"
+                  Foreground="{StaticResource TextBrush}"
+                  BorderThickness="0"
+                  FontSize="13">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Loc"    Width="50"  DisplayMemberBinding="{Binding Loc}"/>
+                    <GridViewColumn Header="Nume"   Width="140" DisplayMemberBinding="{Binding Nume}"/>
+                    <GridViewColumn Header="Joc"    Width="90"  DisplayMemberBinding="{Binding Joc}"/>
+                    <GridViewColumn Header="Scor"   Width="70"  DisplayMemberBinding="{Binding Scor}"/>
+                    <GridViewColumn Header="Mutari" Width="70"  DisplayMemberBinding="{Binding Mutari}"/>
+                    <GridViewColumn Header="Status" Width="100" DisplayMemberBinding="{Binding Status}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+        <!-- Bottom buttons -->
+        <StackPanel Grid.Row="4" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,12,0,0">
+            <Button Content="Modifica Scor" Style="{StaticResource SmallButton}" Click="BtnModifica_Click"/>
+            <Button Content="Sterge"        Style="{StaticResource SmallButton}"
+                    Background="{StaticResource AccentBrush}" Click="BtnSterge_Click"/>
+            <Button Content="Inchide"       Style="{StaticResource SmallButton}"
+                    Background="#333" Click="BtnClose_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

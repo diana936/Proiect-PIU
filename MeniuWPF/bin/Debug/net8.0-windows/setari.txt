@@ -1,0 +1,9 @@
+Rezolutie=80x24
+VitezaJoc=3
+SunetActivat=False
+Tasta_sarpe_sus=UpArrow
+Tasta_sarpe_jos=DownArrow
+Tasta_sarpe_stanga=LeftArrow
+Tasta_sarpe_dreapta=RightArrow
+Tasta_meniu_confirma=Enter
+Tasta_meniu_inapoi=Escape

@@ -1,0 +1,49 @@
+<Window x:Class="MeniuWPF.Views.MainMenuWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Meniu Jocuri" Height="600" Width="620"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
+        Background="{StaticResource PrimaryBrush}">
+    <Grid>
+        <StackPanel VerticalAlignment="Center" Margin="60,0">
+
+            <!-- Title -->
+            <TextBlock Text="🎮 GAMES" Style="{StaticResource TitleText}"/>
+            <TextBlock Text="Alege un joc pentru a incepe"
+                       Style="{StaticResource LabelText}"
+                       HorizontalAlignment="Center"
+                       Margin="0,0,0,32"/>
+
+            <!-- Game Buttons -->
+            <Button Content="🐍  Snake"
+                    Style="{StaticResource GameButton}"
+                    Click="BtnSnake_Click"/>
+
+            <Button Content="✖️  X si 0"
+                    Style="{StaticResource GameButton}"
+                    Click="BtnXSiZero_Click"/>
+
+            <Button Content="🔴  Connect 4"
+                    Style="{StaticResource GameButton}"
+                    Click="BtnConnect4_Click"/>
+
+            <!-- Divider -->
+            <Separator Background="#333355" Margin="0,16"/>
+
+            <Button Content="🏆  Leaderboard"
+                    Style="{StaticResource GameButton}"
+                    Click="BtnLeaderboard_Click"/>
+
+            <Button Content="⚙️  Setari"
+                    Style="{StaticResource GameButton}"
+                    Click="BtnSetari_Click"/>
+
+            <Button Content="Iesire"
+                    Style="{StaticResource GameButton}"
+                    Background="#333"
+                    Click="BtnExit_Click"
+                    Margin="0,8,0,0"/>
+        </StackPanel>
+    </Grid>
+</Window>
