@@ -81,7 +81,6 @@ namespace Meniu.UI
             Console.ReadKey(true);
         }
 
-        // SEARCH – find a raw setting by its key in the file
         private void CautaSetare()
         {
             Console.Write("Introdu cheia (ex: VitezaJoc, SunetActivat, Rezolutie): ");
@@ -94,7 +93,6 @@ namespace Meniu.UI
             Console.ReadKey(true);
         }
 
-        // MODIFY – change any setting by typing key + new value
         private void ModificaSetare()
         {
             Console.Write("Cheia de modificat: ");
@@ -103,7 +101,7 @@ namespace Meniu.UI
             string valoare = Console.ReadLine()?.Trim() ?? "";
 
             bool exista = StocareSetari.Instanta.ModificaSetare(cheie, valoare);
-            // Also reload so in-memory state matches the file
+
             StocareSetari.Instanta.Incarca(_setari);
             Console.WriteLine(exista ? "Setare modificata si salvata!" : "Setare noua adaugata si salvata!");
             Console.ReadKey(true);

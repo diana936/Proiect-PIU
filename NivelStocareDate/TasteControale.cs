@@ -33,7 +33,6 @@ namespace NivelStocareDate
             _asocieri[actiune] = tasta;
         }
 
-        // Returns all registered action names (needed for file serialization)
         public IEnumerable<string> ObtineToateActiunile()
         {
             return _asocieri.Keys;

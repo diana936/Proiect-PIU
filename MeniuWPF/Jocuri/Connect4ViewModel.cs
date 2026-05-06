@@ -1,4 +1,5 @@
 using System;
+using NivelStocareDate;
 
 namespace MeniuWPF.Jocuri
 {
@@ -10,23 +11,19 @@ namespace MeniuWPF.Jocuri
         public bool JocTerminat  { get; private set; }
         public string? Castigator { get; private set; }
         public int NrMutari { get; private set; }
-
         private Random _random = new Random();
 
-        public Connect4ViewModel(bool vsCalculator)
-        {
-            VsCalculator = vsCalculator;
-        }
+        public Connect4ViewModel(bool vsCalculator) { VsCalculator = vsCalculator; }
 
         public string StatusText
         {
             get
             {
                 if (JocTerminat)
-                    return Castigator != null ? $"{Castigator} a castigat!" : "Remiza!";
+                    return Castigator != null ? $"{Castigator} a castigat!" : "REMIZA!";
                 return _esteJucator1
-                    ? "Turul: Jucator 1 🔴"
-                    : $"Turul: {(VsCalculator ? "Calculator" : "Jucator 2")} 🟡";
+                    ? "Turul: Jucator 1 [R]"
+                    : $"Turul: {(VsCalculator ? "Calculator" : "Jucator 2")} [Y]";
             }
         }
 
@@ -46,7 +43,15 @@ namespace MeniuWPF.Jocuri
         public void MutareCalculator()
         {
             if (JocTerminat) return;
-            int col = GasesteOptima(2) ?? GasesteOptima(1) ?? GasesteRandom();
+            int adancime = SetariJoc.Instanta.AdancimeAI();
+            int col;
+            if (adancime == 0)
+                col = GasesteRandom();
+            else if (adancime == 1)
+                col = GasesteOptima(2) ?? GasesteOptima(1) ?? GasesteRandom();
+            else
+                col = GasesteMinimaxCol(adancime * 2);
+
             AruncaJeton(col, 2);
             NrMutari++;
             VerificaStare();
@@ -60,17 +65,86 @@ namespace MeniuWPF.Jocuri
             return -1;
         }
 
+        private void UndoJeton(int col)
+        {
+            for (int r = 0; r < 6; r++)
+                if (_tabla[r, col] != 0) { _tabla[r, col] = 0; return; }
+        }
+
         private int? GasesteOptima(int val)
         {
             for (int c = 0; c < 7; c++)
             {
-                if (_tabla[0, c] != 0) continue;
                 int r = AruncaJeton(c, val);
+                if (r < 0) continue;
                 bool wins = VerificaCastigator(val);
-                _tabla[r, c] = 0;
+                UndoJeton(c);
                 if (wins) return c;
             }
             return null;
+        }
+
+        private int GasesteMinimaxCol(int maxPly)
+        {
+            int bestScore = int.MinValue, bestCol = GasesteRandom();
+            for (int c = 0; c < 7; c++)
+            {
+                int r = AruncaJeton(c, 2);
+                if (r < 0) continue;
+                int score = Minimax(maxPly - 1, false, int.MinValue, int.MaxValue);
+                UndoJeton(c);
+                if (score > bestScore) { bestScore = score; bestCol = c; }
+            }
+            return bestCol;
+        }
+
+        private int Minimax(int depth, bool eMaximizator, int alpha, int beta)
+        {
+            if (VerificaCastigator(2)) return  1000 + depth;
+            if (VerificaCastigator(1)) return -1000 - depth;
+            if (depth == 0 || EsteTablaPlina()) return EvalueazaTabla();
+
+            if (eMaximizator)
+            {
+                int best = int.MinValue;
+                for (int c = 0; c < 7; c++)
+                {
+                    int r = AruncaJeton(c, 2);
+                    if (r < 0) continue;
+                    best = Math.Max(best, Minimax(depth - 1, false, alpha, beta));
+                    UndoJeton(c);
+                    alpha = Math.Max(alpha, best);
+                    if (beta <= alpha) break;
+                }
+                return best;
+            }
+            else
+            {
+                int best = int.MaxValue;
+                for (int c = 0; c < 7; c++)
+                {
+                    int r = AruncaJeton(c, 1);
+                    if (r < 0) continue;
+                    best = Math.Min(best, Minimax(depth - 1, true, alpha, beta));
+                    UndoJeton(c);
+                    beta = Math.Min(beta, best);
+                    if (beta <= alpha) break;
+                }
+                return best;
+            }
+        }
+
+        private int EvalueazaTabla()
+        {
+            int scor = 0;
+            int[] weights = { 0, 1, 2, 4, 2, 1, 0 };
+            for (int r = 0; r < 6; r++)
+                for (int c = 0; c < 7; c++)
+                {
+                    if (_tabla[r, c] == 2) scor += weights[c];
+                    else if (_tabla[r, c] == 1) scor -= weights[c];
+                }
+            return scor;
         }
 
         private int GasesteRandom()
@@ -97,19 +171,15 @@ namespace MeniuWPF.Jocuri
 
         private bool VerificaCastigator(int v)
         {
-            // Horizontal
             for (int r = 0; r < 6; r++)
                 for (int c = 0; c <= 3; c++)
                     if (_tabla[r,c]==v && _tabla[r,c+1]==v && _tabla[r,c+2]==v && _tabla[r,c+3]==v) return true;
-            // Vertical
             for (int r = 0; r <= 2; r++)
                 for (int c = 0; c < 7; c++)
                     if (_tabla[r,c]==v && _tabla[r+1,c]==v && _tabla[r+2,c]==v && _tabla[r+3,c]==v) return true;
-            // Diagonal \
             for (int r = 0; r <= 2; r++)
                 for (int c = 0; c <= 3; c++)
                     if (_tabla[r,c]==v && _tabla[r+1,c+1]==v && _tabla[r+2,c+2]==v && _tabla[r+3,c+3]==v) return true;
-            // Diagonal /
             for (int r = 3; r < 6; r++)
                 for (int c = 0; c <= 3; c++)
                     if (_tabla[r,c]==v && _tabla[r-1,c+1]==v && _tabla[r-2,c+2]==v && _tabla[r-3,c+3]==v) return true;

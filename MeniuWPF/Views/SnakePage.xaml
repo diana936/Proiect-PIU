@@ -1,0 +1,61 @@
+<Page x:Class="MeniuWPF.Views.SnakePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:local="clr-namespace:MeniuWPF.Views"
+      Background="{StaticResource PrimaryBrush}"
+      KeyDown="Page_KeyDown"
+      Focusable="True">
+    <Grid>
+        <!-- Game content -->
+        <StackPanel>
+            <Border Background="#0A1A0A" BorderBrush="{StaticResource GreenBrush}"
+                    BorderThickness="0,0,0,2" Margin="0,0,0,8">
+                <DockPanel Margin="12,8">
+                    <TextBlock Text="&gt; SNAKE"
+                               Foreground="{StaticResource GreenBrush}"
+                               FontFamily="Lucida Console, Courier New"
+                               FontSize="14" FontWeight="Bold">
+                        <TextBlock.Effect>
+                            <DropShadowEffect Color="#00FF41" ShadowDepth="0" BlurRadius="8" Opacity="0.7"/>
+                        </TextBlock.Effect>
+                    </TextBlock>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                        <TextBlock x:Name="TxtDif" Foreground="{StaticResource YellowBrush}"
+                                   FontFamily="Lucida Console, Courier New"
+                                   FontSize="11" VerticalAlignment="Center" Margin="0,0,16,0"/>
+                        <TextBlock x:Name="TxtScor" Text="SCORE: 0"
+                                   Foreground="{StaticResource CyanBrush}"
+                                   FontFamily="Lucida Console, Courier New"
+                                   FontSize="13" FontWeight="Bold" Margin="0,0,16,0"/>
+                        <TextBlock x:Name="TxtLungime" Text="LEN: 1"
+                                   Foreground="{StaticResource GreenBrush}"
+                                   FontFamily="Lucida Console, Courier New"
+                                   FontSize="11" VerticalAlignment="Center"/>
+                    </StackPanel>
+                </DockPanel>
+            </Border>
+
+            <Canvas x:Name="GameCanvas" Width="500" Height="500"
+                    Background="#010801" HorizontalAlignment="Center" Margin="0,0,0,8">
+                <Canvas.Effect>
+                    <DropShadowEffect Color="#00FF41" ShadowDepth="0" BlurRadius="6" Opacity="0.3"/>
+                </Canvas.Effect>
+            </Canvas>
+
+            <TextBlock x:Name="TxtStatus"
+                       Text="[ APASA O SAGEATA PENTRU START | ESC = PAUZA ]"
+                       Foreground="{StaticResource DarkGreenBrush}"
+                       FontFamily="Lucida Console, Courier New"
+                       FontSize="10" HorizontalAlignment="Center" Margin="0,0,0,6"/>
+
+            <Button Content="[BACK]" Style="{StaticResource SmallButton}"
+                    Foreground="{StaticResource RedBrush}"
+                    BorderBrush="{StaticResource RedBrush}"
+                    HorizontalAlignment="Center"
+                    Click="BtnBack_Click"/>
+        </StackPanel>
+
+        <!-- Pixel overlay (sits on top of everything) -->
+        <local:PixelOverlay x:Name="Overlay"/>
+    </Grid>
+</Page>

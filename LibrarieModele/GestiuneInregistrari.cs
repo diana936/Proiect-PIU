@@ -12,7 +12,6 @@ namespace LibrarieModele
 
         public GestiuneInregistrari()
         {
-            // Load existing records from file on startup
             _inregistrari = StocareInregistrari.Instanta.Incarca();
         }
 

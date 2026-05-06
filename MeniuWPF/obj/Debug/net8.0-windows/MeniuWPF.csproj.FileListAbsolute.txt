@@ -1,38 +1,48 @@
-D:\New folder (2)\Proiect-PIU-updated (1)\Proiect-PIU-main\MeniuWPF\bin\Debug\net8.0-windows\MeniuWPF.exe
-D:\New folder (2)\Proiect-PIU-updated (1)\Proiect-PIU-main\MeniuWPF\bin\Debug\net8.0-windows\MeniuWPF.deps.json
-D:\New folder (2)\Proiect-PIU-updated (1)\Proiect-PIU-main\MeniuWPF\bin\Debug\net8.0-windows\MeniuWPF.runtimeconfig.json
-D:\New folder (2)\Proiect-PIU-updated (1)\Proiect-PIU-main\MeniuWPF\bin\Debug\net8.0-windows\MeniuWPF.dll
-D:\New folder (2)\Proiect-PIU-updated (1)\Proiect-PIU-main\MeniuWPF\bin\Debug\net8.0-windows\MeniuWPF.pdb
-D:\New folder (2)\Proiect-PIU-updated (1)\Proiect-PIU-main\MeniuWPF\bin\Debug\net8.0-windows\LibrarieModele.dll
-D:\New folder (2)\Proiect-PIU-updated (1)\Proiect-PIU-main\MeniuWPF\bin\Debug\net8.0-windows\NivelStocareDate.dll
-D:\New folder (2)\Proiect-PIU-updated (1)\Proiect-PIU-main\MeniuWPF\bin\Debug\net8.0-windows\LibrarieModele.pdb
-D:\New folder (2)\Proiect-PIU-updated (1)\Proiect-PIU-main\MeniuWPF\bin\Debug\net8.0-windows\NivelStocareDate.pdb
-D:\New folder (2)\Proiect-PIU-updated (1)\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\MeniuWPF.csproj.AssemblyReference.cache
-D:\New folder (2)\Proiect-PIU-updated (1)\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\Views\Connect4Window.baml
-D:\New folder (2)\Proiect-PIU-updated (1)\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\Views\LeaderboardWindow.baml
-D:\New folder (2)\Proiect-PIU-updated (1)\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\Views\MainMenuWindow.baml
-D:\New folder (2)\Proiect-PIU-updated (1)\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\Views\ModSelectWindow.baml
-D:\New folder (2)\Proiect-PIU-updated (1)\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\Views\SetariWindow.baml
-D:\New folder (2)\Proiect-PIU-updated (1)\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\Views\SnakeWindow.baml
-D:\New folder (2)\Proiect-PIU-updated (1)\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\Views\XSiZeroWindow.baml
-D:\New folder (2)\Proiect-PIU-updated (1)\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\App.baml
-D:\New folder (2)\Proiect-PIU-updated (1)\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\Views\Connect4Window.g.cs
-D:\New folder (2)\Proiect-PIU-updated (1)\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\Views\LeaderboardWindow.g.cs
-D:\New folder (2)\Proiect-PIU-updated (1)\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\Views\MainMenuWindow.g.cs
-D:\New folder (2)\Proiect-PIU-updated (1)\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\Views\ModSelectWindow.g.cs
-D:\New folder (2)\Proiect-PIU-updated (1)\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\Views\SetariWindow.g.cs
-D:\New folder (2)\Proiect-PIU-updated (1)\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\Views\SnakeWindow.g.cs
-D:\New folder (2)\Proiect-PIU-updated (1)\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\Views\XSiZeroWindow.g.cs
-D:\New folder (2)\Proiect-PIU-updated (1)\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\App.g.cs
-D:\New folder (2)\Proiect-PIU-updated (1)\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\MeniuWPF_MarkupCompile.cache
-D:\New folder (2)\Proiect-PIU-updated (1)\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\MeniuWPF.g.resources
-D:\New folder (2)\Proiect-PIU-updated (1)\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\MeniuWPF.GeneratedMSBuildEditorConfig.editorconfig
-D:\New folder (2)\Proiect-PIU-updated (1)\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\MeniuWPF.AssemblyInfoInputs.cache
-D:\New folder (2)\Proiect-PIU-updated (1)\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\MeniuWPF.AssemblyInfo.cs
-D:\New folder (2)\Proiect-PIU-updated (1)\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\MeniuWPF.csproj.CoreCompileInputs.cache
-D:\New folder (2)\Proiect-PIU-updated (1)\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\MeniuWPF.csproj.Up2Date
-D:\New folder (2)\Proiect-PIU-updated (1)\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\MeniuWPF.dll
-D:\New folder (2)\Proiect-PIU-updated (1)\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\refint\MeniuWPF.dll
-D:\New folder (2)\Proiect-PIU-updated (1)\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\MeniuWPF.pdb
-D:\New folder (2)\Proiect-PIU-updated (1)\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\MeniuWPF.genruntimeconfig.cache
-D:\New folder (2)\Proiect-PIU-updated (1)\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\ref\MeniuWPF.dll
+D:\ProiectPIU_curat\Proiect-PIU-main\MeniuWPF\bin\Debug\net8.0-windows\MeniuWPF.exe
+D:\ProiectPIU_curat\Proiect-PIU-main\MeniuWPF\bin\Debug\net8.0-windows\MeniuWPF.deps.json
+D:\ProiectPIU_curat\Proiect-PIU-main\MeniuWPF\bin\Debug\net8.0-windows\MeniuWPF.runtimeconfig.json
+D:\ProiectPIU_curat\Proiect-PIU-main\MeniuWPF\bin\Debug\net8.0-windows\MeniuWPF.dll
+D:\ProiectPIU_curat\Proiect-PIU-main\MeniuWPF\bin\Debug\net8.0-windows\MeniuWPF.pdb
+D:\ProiectPIU_curat\Proiect-PIU-main\MeniuWPF\bin\Debug\net8.0-windows\LibrarieModele.dll
+D:\ProiectPIU_curat\Proiect-PIU-main\MeniuWPF\bin\Debug\net8.0-windows\NivelStocareDate.dll
+D:\ProiectPIU_curat\Proiect-PIU-main\MeniuWPF\bin\Debug\net8.0-windows\LibrarieModele.pdb
+D:\ProiectPIU_curat\Proiect-PIU-main\MeniuWPF\bin\Debug\net8.0-windows\NivelStocareDate.pdb
+D:\ProiectPIU_curat\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\MeniuWPF.csproj.AssemblyReference.cache
+D:\ProiectPIU_curat\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\Views\AdaugaJucatorPage.baml
+D:\ProiectPIU_curat\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\Views\MainMenuPage.baml
+D:\ProiectPIU_curat\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\Views\MainWindow.baml
+D:\ProiectPIU_curat\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\Views\ModSelectPage.baml
+D:\ProiectPIU_curat\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\Views\PixelOverlay.baml
+D:\ProiectPIU_curat\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\Views\SetariPage.baml
+D:\ProiectPIU_curat\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\App.baml
+D:\ProiectPIU_curat\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\Views\AdaugaJucatorPage.g.cs
+D:\ProiectPIU_curat\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\Views\Connect4Page.g.cs
+D:\ProiectPIU_curat\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\Views\JucatoriPage.g.cs
+D:\ProiectPIU_curat\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\Views\LeaderboardPage.g.cs
+D:\ProiectPIU_curat\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\Views\MainMenuPage.g.cs
+D:\ProiectPIU_curat\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\Views\MainWindow.g.cs
+D:\ProiectPIU_curat\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\Views\ModSelectPage.g.cs
+D:\ProiectPIU_curat\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\Views\PixelOverlay.g.cs
+D:\ProiectPIU_curat\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\Views\SetariPage.g.cs
+D:\ProiectPIU_curat\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\Views\SnakePage.g.cs
+D:\ProiectPIU_curat\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\Views\XSiZeroPage.g.cs
+D:\ProiectPIU_curat\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\App.g.cs
+D:\ProiectPIU_curat\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\ProiectPIU_curat\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\MeniuWPF_MarkupCompile.cache
+D:\ProiectPIU_curat\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\MeniuWPF_MarkupCompile.lref
+D:\ProiectPIU_curat\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\Views\Connect4Page.baml
+D:\ProiectPIU_curat\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\Views\JucatoriPage.baml
+D:\ProiectPIU_curat\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\Views\LeaderboardPage.baml
+D:\ProiectPIU_curat\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\Views\SnakePage.baml
+D:\ProiectPIU_curat\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\Views\XSiZeroPage.baml
+D:\ProiectPIU_curat\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\MeniuWPF.g.resources
+D:\ProiectPIU_curat\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\MeniuWPF.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProiectPIU_curat\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\MeniuWPF.AssemblyInfoInputs.cache
+D:\ProiectPIU_curat\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\MeniuWPF.AssemblyInfo.cs
+D:\ProiectPIU_curat\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\MeniuWPF.csproj.CoreCompileInputs.cache
+D:\ProiectPIU_curat\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\MeniuWPF.csproj.Up2Date
+D:\ProiectPIU_curat\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\MeniuWPF.dll
+D:\ProiectPIU_curat\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\refint\MeniuWPF.dll
+D:\ProiectPIU_curat\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\MeniuWPF.pdb
+D:\ProiectPIU_curat\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\MeniuWPF.genruntimeconfig.cache
+D:\ProiectPIU_curat\Proiect-PIU-main\MeniuWPF\obj\Debug\net8.0-windows\ref\MeniuWPF.dll

@@ -1,0 +1,100 @@
+<Page x:Class="MeniuWPF.Views.SetariPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Background="{StaticResource PrimaryBrush}">
+
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <StackPanel Margin="50,20">
+
+            <TextBlock Text="&gt;&gt; SETARI &lt;&lt;" Style="{StaticResource TitleText}"/>
+
+            <!-- Resolution -->
+            <Border Style="{StaticResource PixelPanel}" Margin="0,0,0,14">
+                <StackPanel>
+                    <TextBlock Text="[ REZOLUTIE FEREASTRA ]" Style="{StaticResource LabelText}"
+                               Foreground="{StaticResource CyanBrush}" Margin="0,0,0,8"/>
+                    <RadioButton x:Name="RbMic"   Content="MICA    — 560 x 560 px"  GroupName="Rez"
+                                 Foreground="{StaticResource GreenBrush}"
+                                 FontFamily="Lucida Console, Courier New" FontSize="11" Margin="0,3"/>
+                    <RadioButton x:Name="RbMediu" Content="MEDIE   — 700 x 660 px"  GroupName="Rez"
+                                 Foreground="{StaticResource GreenBrush}"
+                                 FontFamily="Lucida Console, Courier New" FontSize="11" Margin="0,3" IsChecked="True"/>
+                    <RadioButton x:Name="RbMare"  Content="MARE    — 900 x 800 px"  GroupName="Rez"
+                                 Foreground="{StaticResource GreenBrush}"
+                                 FontFamily="Lucida Console, Courier New" FontSize="11" Margin="0,3"/>
+                </StackPanel>
+            </Border>
+
+            <!-- Speed -->
+            <Border Style="{StaticResource PixelPanel}" Margin="0,0,0,14">
+                <StackPanel>
+                    <TextBlock Text="[ VITEZA JOC (SNAKE) ]" Style="{StaticResource LabelText}"
+                               Foreground="{StaticResource CyanBrush}" Margin="0,0,0,8"/>
+                    <DockPanel>
+                        <TextBlock x:Name="TxtViteza" DockPanel.Dock="Right"
+                                   Text="5" Width="28"
+                                   Foreground="{StaticResource YellowBrush}"
+                                   FontFamily="Lucida Console, Courier New" FontSize="13"
+                                   FontWeight="Bold" TextAlignment="Center"
+                                   VerticalAlignment="Center"/>
+                        <Slider x:Name="SliderViteza" Minimum="1" Maximum="10" Value="5"
+                                TickFrequency="1" IsSnapToTickEnabled="True"
+                                Foreground="{StaticResource GreenBrush}"/>
+                    </DockPanel>
+                    <TextBlock Text="1 = lent    10 = fulger"
+                               FontFamily="Lucida Console, Courier New" FontSize="10"
+                               Foreground="{StaticResource DarkGreenBrush}" Margin="0,4,0,0"/>
+                </StackPanel>
+            </Border>
+
+            <!-- Difficulty -->
+            <Border Style="{StaticResource PixelPanel}" Margin="0,0,0,14">
+                <StackPanel>
+                    <TextBlock Text="[ NIVEL DIFICULTATE AI ]" Style="{StaticResource LabelText}"
+                               Foreground="{StaticResource CyanBrush}" Margin="0,0,0,8"/>
+                    <RadioButton x:Name="DifUsor"    Content="USOR    — AI random, snake lent"
+                                 GroupName="Dif" Foreground="{StaticResource GreenBrush}"
+                                 FontFamily="Lucida Console, Courier New" FontSize="11" Margin="0,3"/>
+                    <RadioButton x:Name="DifMediu"   Content="MEDIU   — AI bloc/castig, viteza normala"
+                                 GroupName="Dif" Foreground="{StaticResource GreenBrush}"
+                                 FontFamily="Lucida Console, Courier New" FontSize="11" Margin="0,3" IsChecked="True"/>
+                    <RadioButton x:Name="DifDificil" Content="DIFICIL — AI avansat, snake rapid"
+                                 GroupName="Dif" Foreground="{StaticResource YellowBrush}"
+                                 FontFamily="Lucida Console, Courier New" FontSize="11" Margin="0,3"/>
+                    <RadioButton x:Name="DifExpert"  Content="EXPERT  — AI minimax, snake fulger"
+                                 GroupName="Dif" Foreground="{StaticResource RedBrush}"
+                                 FontFamily="Lucida Console, Courier New" FontSize="11" Margin="0,3"/>
+                </StackPanel>
+            </Border>
+
+            <!-- Sound -->
+            <Border Style="{StaticResource PixelPanel}" Margin="0,0,0,20">
+                <StackPanel>
+                    <TextBlock Text="[ SUNET ]" Style="{StaticResource LabelText}"
+                               Foreground="{StaticResource CyanBrush}" Margin="0,0,0,8"/>
+                    <CheckBox x:Name="ChkSunet"
+                              Content="BEEP-URI ACTIVATE"
+                              Foreground="{StaticResource GreenBrush}"
+                              FontFamily="Lucida Console, Courier New" FontSize="12"/>
+                    <TextBlock Text="(sistem: Console.Beep — evenimente joc)"
+                               FontFamily="Lucida Console, Courier New" FontSize="10"
+                               Foreground="{StaticResource DarkGreenBrush}" Margin="0,4,0,0"/>
+                </StackPanel>
+            </Border>
+
+            <!-- Buttons -->
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Content="[SAVE]"  Style="{StaticResource SmallButton}" Click="BtnSalveaza_Click"/>
+                <Button Content="[RESET]" Style="{StaticResource SmallButton}"
+                        Foreground="{StaticResource YellowBrush}"
+                        BorderBrush="{StaticResource YellowBrush}"
+                        Click="BtnReset_Click"/>
+                <Button Content="[BACK]"  Style="{StaticResource SmallButton}"
+                        Foreground="{StaticResource RedBrush}"
+                        BorderBrush="{StaticResource RedBrush}"
+                        Click="BtnBack_Click"/>
+            </StackPanel>
+
+        </StackPanel>
+    </ScrollViewer>
+</Page>

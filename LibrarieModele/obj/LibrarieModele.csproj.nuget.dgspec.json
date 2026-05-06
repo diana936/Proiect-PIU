@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\New folder (2)\\Proiect-PIU-updated (1)\\Proiect-PIU-main\\LibrarieModele\\LibrarieModele.csproj": {}
+    "D:\\ProiectPIU_curat\\Proiect-PIU-main\\LibrarieModele\\LibrarieModele.csproj": {}
   },
   "projects": {
-    "D:\\New folder (2)\\Proiect-PIU-updated (1)\\Proiect-PIU-main\\LibrarieModele\\LibrarieModele.csproj": {
+    "D:\\ProiectPIU_curat\\Proiect-PIU-main\\LibrarieModele\\LibrarieModele.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\New folder (2)\\Proiect-PIU-updated (1)\\Proiect-PIU-main\\LibrarieModele\\LibrarieModele.csproj",
+        "projectUniqueName": "D:\\ProiectPIU_curat\\Proiect-PIU-main\\LibrarieModele\\LibrarieModele.csproj",
         "projectName": "LibrarieModele",
-        "projectPath": "D:\\New folder (2)\\Proiect-PIU-updated (1)\\Proiect-PIU-main\\LibrarieModele\\LibrarieModele.csproj",
+        "projectPath": "D:\\ProiectPIU_curat\\Proiect-PIU-main\\LibrarieModele\\LibrarieModele.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\New folder (2)\\Proiect-PIU-updated (1)\\Proiect-PIU-main\\LibrarieModele\\obj\\",
+        "outputPath": "D:\\ProiectPIU_curat\\Proiect-PIU-main\\LibrarieModele\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

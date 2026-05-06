@@ -1,0 +1,33 @@
+<Page x:Class="MeniuWPF.Views.Connect4Page"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:local="clr-namespace:MeniuWPF.Views"
+      Background="{StaticResource PrimaryBrush}">
+    <Grid>
+        <StackPanel Margin="20" VerticalAlignment="Center">
+            <TextBlock Text="&gt;&gt; CONNECT 4 &lt;&lt;" Style="{StaticResource TitleText}"/>
+            <TextBlock x:Name="TxtDif"
+                       FontFamily="Lucida Console, Courier New" FontSize="11"
+                       Foreground="{StaticResource YellowBrush}"
+                       HorizontalAlignment="Center" Margin="0,-12,0,10"/>
+            <TextBlock x:Name="TxtStatus"
+                       FontFamily="Lucida Console, Courier New" FontSize="13" FontWeight="Bold"
+                       Foreground="{StaticResource CyanBrush}"
+                       HorizontalAlignment="Center" Margin="0,0,0,8"/>
+            <StackPanel x:Name="ColButtons" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,2"/>
+            <Border BorderBrush="{StaticResource GreenBrush}" BorderThickness="2"
+                    HorizontalAlignment="Center" Margin="0,0,0,12">
+                <Grid x:Name="BoardGrid" Background="{StaticResource PanelBrush}"/>
+            </Border>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Content="[RESTART]" Style="{StaticResource SmallButton}" Click="BtnRestart_Click"/>
+                <Button Content="[BACK]"    Style="{StaticResource SmallButton}"
+                        Foreground="{StaticResource RedBrush}"
+                        BorderBrush="{StaticResource RedBrush}"
+                        Click="BtnBack_Click"/>
+            </StackPanel>
+        </StackPanel>
+
+        <local:PixelOverlay x:Name="Overlay"/>
+    </Grid>
+</Page>

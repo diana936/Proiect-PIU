@@ -31,7 +31,7 @@ namespace Meniu.Jocuri.Connect4
 
         public bool VerificaCastigator(int valoareJucator)
         {
-            // orizontal
+
             for (int r = 0; r < RanduriStandard; r++)
                 for (int c = 0; c <= ColoaneStandard - 4; c++)
                     if (Grila[r, c] == valoareJucator &&
@@ -40,7 +40,6 @@ namespace Meniu.Jocuri.Connect4
                         Grila[r, c + 3] == valoareJucator)
                         return true;
 
-            // vertical
             for (int r = 0; r <= RanduriStandard - 4; r++)
                 for (int c = 0; c < ColoaneStandard; c++)
                     if (Grila[r, c] == valoareJucator &&
@@ -49,7 +48,6 @@ namespace Meniu.Jocuri.Connect4
                         Grila[r + 3, c] == valoareJucator)
                         return true;
 
-            // diagonala \
             for (int r = 0; r <= RanduriStandard - 4; r++)
                 for (int c = 0; c <= ColoaneStandard - 4; c++)
                     if (Grila[r, c] == valoareJucator &&
@@ -58,7 +56,6 @@ namespace Meniu.Jocuri.Connect4
                         Grila[r + 3, c + 3] == valoareJucator)
                         return true;
 
-            // diagonala /
             for (int r = 3; r < RanduriStandard; r++)
                 for (int c = 0; c <= ColoaneStandard - 4; c++)
                     if (Grila[r, c] == valoareJucator &&

@@ -1,0 +1,92 @@
+<Page x:Class="MeniuWPF.Views.LeaderboardPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:local="clr-namespace:MeniuWPF.Views"
+      Background="{StaticResource PrimaryBrush}">
+
+    <Page.Resources>
+        <Style TargetType="GridViewColumnHeader">
+            <Setter Property="Background"      Value="{StaticResource PanelBrush}"/>
+            <Setter Property="Foreground"      Value="{StaticResource CyanBrush}"/>
+            <Setter Property="FontFamily"      Value="Lucida Console, Courier New"/>
+            <Setter Property="FontSize"        Value="11"/>
+            <Setter Property="FontWeight"      Value="Bold"/>
+            <Setter Property="BorderBrush"     Value="{StaticResource GreenBrush}"/>
+            <Setter Property="BorderThickness" Value="0,0,1,1"/>
+            <Setter Property="Padding"         Value="6,4"/>
+        </Style>
+    </Page.Resources>
+
+    <Grid>
+        <Grid Margin="20">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <TextBlock Grid.Row="0" Text="&gt;&gt; LEADERBOARD &lt;&lt;" Style="{StaticResource TitleText}"/>
+
+            <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,10">
+                <Button Content="[ALL]"   Style="{StaticResource SmallButton}" Click="BtnToate_Click"/>
+                <Button Content="[SNAKE]" Style="{StaticResource SmallButton}" Click="BtnSnake_Click"/>
+                <Button Content="[X&amp;O]"  Style="{StaticResource SmallButton}" Click="BtnXSiZero_Click"/>
+                <Button Content="[C4]"    Style="{StaticResource SmallButton}" Click="BtnConnect4_Click"/>
+            </StackPanel>
+
+            <DockPanel Grid.Row="2" Margin="0,0,0,10">
+                <Button Content="[GO]" Style="{StaticResource SmallButton}"
+                        DockPanel.Dock="Right" Click="BtnCauta_Click" Margin="8,0,0,0"/>
+                <TextBlock Text="SEARCH &gt; " Style="{StaticResource LabelText}"
+                           VerticalAlignment="Center" Margin="0,0,6,0"/>
+                <TextBox x:Name="TxtCautare" Style="{StaticResource ModernTextBox}"/>
+            </DockPanel>
+
+            <!-- Status flash line -->
+            <TextBlock x:Name="TxtStatus" Grid.Row="3"
+                       FontFamily="Lucida Console, Courier New" FontSize="11"
+                       Foreground="{StaticResource CyanBrush}"
+                       HorizontalAlignment="Center" Margin="0,0,0,6"/>
+
+            <Border Grid.Row="4" BorderBrush="{StaticResource GreenBrush}" BorderThickness="2" Margin="0,0,0,10">
+                <ListView x:Name="LstRecords"
+                          Background="{StaticResource PanelBrush}"
+                          Foreground="{StaticResource GreenBrush}"
+                          BorderThickness="0"
+                          FontFamily="Lucida Console, Courier New"
+                          FontSize="11">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="LOC"    Width="50"  DisplayMemberBinding="{Binding Loc}"/>
+                            <GridViewColumn Header="NUME"   Width="130" DisplayMemberBinding="{Binding Nume}"/>
+                            <GridViewColumn Header="JOC"    Width="80"  DisplayMemberBinding="{Binding Joc}"/>
+                            <GridViewColumn Header="SCOR"   Width="70"  DisplayMemberBinding="{Binding Scor}"/>
+                            <GridViewColumn Header="MUTARI" Width="70"  DisplayMemberBinding="{Binding Mutari}"/>
+                            <GridViewColumn Header="STATUS" Width="90"  DisplayMemberBinding="{Binding Status}"/>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </Border>
+
+            <StackPanel Grid.Row="5" Orientation="Horizontal" HorizontalAlignment="Right">
+                <Button Content="[EDIT]" Style="{StaticResource SmallButton}"
+                        Foreground="{StaticResource YellowBrush}"
+                        BorderBrush="{StaticResource YellowBrush}"
+                        Click="BtnModifica_Click"/>
+                <Button Content="[DEL]"  Style="{StaticResource SmallButton}"
+                        Foreground="{StaticResource RedBrush}"
+                        BorderBrush="{StaticResource RedBrush}"
+                        Click="BtnSterge_Click"/>
+                <Button Content="[BACK]" Style="{StaticResource SmallButton}"
+                        Foreground="{StaticResource RedBrush}"
+                        BorderBrush="{StaticResource RedBrush}"
+                        Click="BtnBack_Click"/>
+            </StackPanel>
+        </Grid>
+
+        <local:PixelOverlay x:Name="Overlay"/>
+    </Grid>
+</Page>

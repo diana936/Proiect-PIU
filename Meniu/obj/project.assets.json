@@ -51,11 +51,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\New folder (2)\\Proiect-PIU-updated (1)\\Proiect-PIU-main\\Meniu\\Meniu.csproj",
+      "projectUniqueName": "D:\\ProiectPIU_curat\\Proiect-PIU-main\\Meniu\\Meniu.csproj",
       "projectName": "Meniu",
-      "projectPath": "D:\\New folder (2)\\Proiect-PIU-updated (1)\\Proiect-PIU-main\\Meniu\\Meniu.csproj",
+      "projectPath": "D:\\ProiectPIU_curat\\Proiect-PIU-main\\Meniu\\Meniu.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\New folder (2)\\Proiect-PIU-updated (1)\\Proiect-PIU-main\\Meniu\\obj\\",
+      "outputPath": "D:\\ProiectPIU_curat\\Proiect-PIU-main\\Meniu\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -72,11 +72,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\New folder (2)\\Proiect-PIU-updated (1)\\Proiect-PIU-main\\LibrarieModele\\LibrarieModele.csproj": {
-              "projectPath": "D:\\New folder (2)\\Proiect-PIU-updated (1)\\Proiect-PIU-main\\LibrarieModele\\LibrarieModele.csproj"
+            "D:\\ProiectPIU_curat\\Proiect-PIU-main\\LibrarieModele\\LibrarieModele.csproj": {
+              "projectPath": "D:\\ProiectPIU_curat\\Proiect-PIU-main\\LibrarieModele\\LibrarieModele.csproj"
             },
-            "D:\\New folder (2)\\Proiect-PIU-updated (1)\\Proiect-PIU-main\\NivelStocareDate\\NivelStocareDate.csproj": {
-              "projectPath": "D:\\New folder (2)\\Proiect-PIU-updated (1)\\Proiect-PIU-main\\NivelStocareDate\\NivelStocareDate.csproj"
+            "D:\\ProiectPIU_curat\\Proiect-PIU-main\\NivelStocareDate\\NivelStocareDate.csproj": {
+              "projectPath": "D:\\ProiectPIU_curat\\Proiect-PIU-main\\NivelStocareDate\\NivelStocareDate.csproj"
             }
           }
         }

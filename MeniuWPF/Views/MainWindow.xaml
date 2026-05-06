@@ -1,0 +1,86 @@
+<Window x:Class="MeniuWPF.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="PIXEL ARENA"
+        Height="700" Width="660"
+        MinHeight="480" MinWidth="500"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="CanResizeWithGrip"
+        WindowStyle="None"
+        AllowsTransparency="False"
+        Background="{StaticResource PrimaryBrush}">
+
+    <Window.Resources>
+        <Style x:Key="TitleBarBtn" TargetType="Button">
+            <Setter Property="Background"      Value="Transparent"/>
+            <Setter Property="Foreground"      Value="{StaticResource GreenBrush}"/>
+            <Setter Property="FontFamily"      Value="Lucida Console, Courier New"/>
+            <Setter Property="FontSize"        Value="13"/>
+            <Setter Property="FontWeight"      Value="Bold"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Width"           Value="40"/>
+            <Setter Property="Cursor"          Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="Bd" Background="{TemplateBinding Background}"
+                                Padding="4">
+                            <ContentPresenter HorizontalAlignment="Center"
+                                              VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="Bd" Property="Background" Value="#002200"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter TargetName="Bd" Property="Background" Value="{StaticResource DarkGreenBrush}"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="CloseTitleBarBtn" TargetType="Button" BasedOn="{StaticResource TitleBarBtn}">
+            <Setter Property="Foreground" Value="{StaticResource RedBrush}"/>
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="34"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- ── Custom Title Bar ── -->
+        <Border Grid.Row="0"
+                Background="#0A1A0A"
+                BorderBrush="{StaticResource GreenBrush}"
+                BorderThickness="0,0,0,2"
+                MouseLeftButtonDown="TitleBar_MouseLeftButtonDown">
+            <Grid>
+                <TextBlock Text="&gt; PIXEL ARENA _"
+                           Foreground="{StaticResource GreenBrush}"
+                           FontFamily="Lucida Console, Courier New"
+                           FontSize="12" FontWeight="Bold"
+                           VerticalAlignment="Center"
+                           Margin="10,0,0,0">
+                    <TextBlock.Effect>
+                        <DropShadowEffect Color="#00FF41" ShadowDepth="0" BlurRadius="8" Opacity="0.8"/>
+                    </TextBlock.Effect>
+                </TextBlock>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                    <Button Content="─" Style="{StaticResource TitleBarBtn}"
+                            ToolTip="Minimizeaza" Click="BtnMinimize_Click"/>
+                    <Button x:Name="BtnMaxRestore" Content="□" Style="{StaticResource TitleBarBtn}"
+                            ToolTip="Maximizeaza" Click="BtnMaximize_Click"/>
+                    <Button Content="✕" Style="{StaticResource CloseTitleBarBtn}"
+                            ToolTip="Inchide" Click="BtnClose_Click"/>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <!-- ── Page Content ── -->
+        <Frame x:Name="MainFrame" Grid.Row="1"
+               NavigationUIVisibility="Hidden"/>
+    </Grid>
+</Window>

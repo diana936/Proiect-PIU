@@ -120,7 +120,6 @@ namespace Meniu.Jocuri.Connect4
                 _tabla.AruncaJeton(c, valoare);
                 bool castiga = _tabla.VerificaCastigator(valoare);
 
-                // anuleaza mutarea
                 for (int r = 0; r < TablaConnect4.RanduriStandard; r++)
                 {
                     Pozitie poz = new Pozitie(r, c);

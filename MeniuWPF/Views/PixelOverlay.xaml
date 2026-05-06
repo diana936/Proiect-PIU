@@ -1,0 +1,83 @@
+<UserControl x:Class="MeniuWPF.Views.PixelOverlay"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             Visibility="Collapsed">
+
+    <Grid Background="#CC000000">
+        <Border HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                MinWidth="360" MaxWidth="520"
+                Background="#0D0208"
+                BorderBrush="{StaticResource GreenBrush}"
+                BorderThickness="3"
+                Padding="28,22">
+            <Border.Effect>
+                <DropShadowEffect Color="#00FF41" ShadowDepth="0" BlurRadius="20" Opacity="0.6"/>
+            </Border.Effect>
+
+            <StackPanel>
+                <!-- Title bar -->
+                <Border Background="{StaticResource PanelBrush}"
+                        BorderBrush="{StaticResource GreenBrush}"
+                        BorderThickness="0,0,0,2"
+                        Margin="-28,-22,-28,16" Padding="12,8">
+                    <TextBlock x:Name="TxtTitle"
+                               FontFamily="Lucida Console, Courier New"
+                               FontSize="12" FontWeight="Bold"
+                               Foreground="{StaticResource CyanBrush}"/>
+                </Border>
+
+                <!-- Message -->
+                <TextBlock x:Name="TxtMessage"
+                           FontFamily="Lucida Console, Courier New"
+                           FontSize="13" FontWeight="Bold"
+                           Foreground="{StaticResource GreenBrush}"
+                           TextWrapping="Wrap"
+                           HorizontalAlignment="Center"
+                           TextAlignment="Center"
+                           Margin="0,0,0,12">
+                    <TextBlock.Effect>
+                        <DropShadowEffect Color="#00FF41" ShadowDepth="0" BlurRadius="8" Opacity="0.5"/>
+                    </TextBlock.Effect>
+                </TextBlock>
+
+                <!-- Player picker section (profiles + recent) -->
+                <StackPanel x:Name="PickerArea" Visibility="Collapsed" Margin="0,0,0,12">
+                    <TextBlock Text="[ SELECTEAZA PROFIL ]"
+                               FontFamily="Lucida Console, Courier New"
+                               FontSize="10" Foreground="{StaticResource CyanBrush}"
+                               Margin="0,0,0,6"/>
+                    <Border BorderBrush="{StaticResource DarkGreenBrush}" BorderThickness="1"
+                            MaxHeight="130">
+                        <ScrollViewer VerticalScrollBarVisibility="Auto">
+                            <StackPanel x:Name="ProfileList"/>
+                        </ScrollViewer>
+                    </Border>
+                    <TextBlock Text="[ SAU SCRIE UN NUME NOU ]"
+                               FontFamily="Lucida Console, Courier New"
+                               FontSize="10" Foreground="{StaticResource CyanBrush}"
+                               Margin="0,10,0,4"/>
+                </StackPanel>
+
+                <!-- Manual input field -->
+                <Border x:Name="InputArea" Visibility="Collapsed"
+                        BorderBrush="{StaticResource GreenBrush}"
+                        BorderThickness="2" Margin="0,0,0,16">
+                    <TextBox x:Name="TxtInput"
+                             Background="{StaticResource PanelBrush}"
+                             Foreground="{StaticResource GreenBrush}"
+                             CaretBrush="{StaticResource GreenBrush}"
+                             FontFamily="Lucida Console, Courier New"
+                             FontSize="13"
+                             BorderThickness="0"
+                             Padding="8,6"/>
+                </Border>
+
+                <!-- Buttons -->
+                <StackPanel x:Name="ButtonPanel"
+                            Orientation="Horizontal"
+                            HorizontalAlignment="Center"/>
+            </StackPanel>
+        </Border>
+    </Grid>
+</UserControl>

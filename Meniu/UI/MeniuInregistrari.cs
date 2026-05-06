@@ -39,7 +39,6 @@ namespace Meniu.UI
             }
         }
 
-        // DISPLAY leaderboard for one game type
         private void AfiseazaLeaderboard(TipJoc tipJoc)
         {
             Console.Clear();
@@ -62,7 +61,6 @@ namespace Meniu.UI
             Console.ReadKey(true);
         }
 
-        // SEARCH by player name
         private void CautaDupaNumeJucator()
         {
             Console.Clear();
@@ -85,7 +83,6 @@ namespace Meniu.UI
             Console.ReadKey(true);
         }
 
-        // MODIFY – update a player's score for a specific game
         private void ModificaScor()
         {
             Console.Clear();
@@ -122,7 +119,6 @@ namespace Meniu.UI
             Console.ReadKey(true);
         }
 
-        // DELETE a record
         private void StergeInregistrare()
         {
             Console.Clear();
